@@ -4,3 +4,5 @@
 <img src="task2.png"/>
 <h1>Styles for men</h1>
 <img src="task3.png"/>
+<h1>Catagory</h1>
+<img="catagory.jpg"/>
