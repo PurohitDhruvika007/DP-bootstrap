@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-<body>
-    <div class="container" style="height:500px;width:400px;">
-        <div class="row" style="width:100%; height:50px;">
-            <div class="col" >
-                <h3><b>Shop by catagory</b></h3></div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .form-control {
+        border: none;
+        border-bottom: 2px solid gray;
+      }
+      #search {
+        border: none;
+        border-bottom: 2px solid gray;
+      }
+    </style>
+  </head>
+  <body class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="container border p-4 shadow-lg" style="max-width: 800px">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-end text-center gap-3 mb-4"
+      >
+        <div><a href="#">Vector</a></div>
+        <div><a href="#">Illustrations</a></div>
+        <div><a href="#">Images</a></div>
+        <div><a href="#">Icons</a></div>
+      </div>
+      <div class="d-flex flex-column mb-4 flex-md-row justify-content-between">
+        <div class="d-flex mb-4 mb-md-0">
+          <input type="text" placeholder="Search" class="form-control" />
+          <button class="btn" id="search">
+            <i class="ri-search-line"></i>
+          </button>
         </div>
-        <div class="row row-cols-2" style="width:100%; height:400px;">
-            <div class="col" style="height:150px;">
-                <img src="image/one.png" alt="" height="150px" width="150px">
-                <p>Fresh</p>
-            </div>
-            <div class="col" style="height:150px;">
-                <img src="image/two.avif" alt="" height="150px" width="150px">
-                <p>Mobiles</p>
-            </div>
-            <div class="col" style="height:150px;">
-                <img src="image/three.jpg" alt="" height="150px" width="150px">
-                <p>Fashion</p>
-            </div>
-            <div class="col" style="height:150px;">
-                <img src="image/four.jpeg" alt="" height="150px" width="150px">
-                <p>Electronics</p>
-            </div>
+        <button class="btn btn-dark">Upload</button>
+      </div>
+      <div class="row g-3">
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image1.jpg" class="img-fluid" alt="" />
         </div>
-        <div class="row" style="height:20px;">
-            <a href="#" style="text-decoration: none;">see more</a>
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image2.jpg" class="img-fluid" alt="" />
         </div>
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image3.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image4.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image5.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-2 col-md-4 col-12">
+          <img src="images (1)/images/image6.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
